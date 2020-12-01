@@ -50,4 +50,4 @@ Two different ensemble classifiers were used to to predict loan risk
 
 In summary, Using the Easy Ensemble Classifier algorithm resulted in the best balanced accuracy score of 0.9369578705214515. Using the Easy Ensemble Classifier algorithm resulted in the best recall score (0.92) to predict high-risk loans. Using the Easy Ensemble Classifier algorithm resulted in the best geometric mean score (0.94).
 
-The top three features for the Balanced Random Forest Classifier algorithm are: total_rec_prncp (0.08010597363636172), total_rec_int (0.06982507547816391), total_rec_int (0.0671662999611361).
+The top three features for the Balanced Random Forest Classifier algorithm are: total_rec_prncp (0.08010597363636172), total_rec_int (0.06982507547816391), total_pymnt (0.0671662999611361).
