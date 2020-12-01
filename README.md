@@ -38,7 +38,7 @@ In summary, using the SMOTEENN algorithm (combination over- and under-sampling a
 
 #### Ensemble Learning
 
-Two different ensemble classifiers were used to to predict loan risk and evaluate each model
+Two different ensemble classifiers were used to to predict loan risk
 
 1. Balanced Random Forest Classifier
 
@@ -48,6 +48,6 @@ Two different ensemble classifiers were used to to predict loan risk and evaluat
 
 ![eac](Images/eac.PNG)
 
-In summary, Using the Easy Ensemble Classifier algorithm resulted in the best balanced accuracy score of 0.9369578705214515. Using the Easy Ensemble Classifier algorithm resulted in the best recall score (0.92) to predict high-risk loans. Using the Easy Ensemble Classifier algorithm resulted resulted in the best geometric mean score (0.94).
+In summary, Using the Easy Ensemble Classifier algorithm resulted in the best balanced accuracy score of 0.9369578705214515. Using the Easy Ensemble Classifier algorithm resulted in the best recall score (0.92) to predict high-risk loans. Using the Easy Ensemble Classifier algorithm resulted in the best geometric mean score (0.94).
 
 The top three features for the Balanced Random Forest Classifier algorithm are: total_rec_prncp (0.08010597363636172), total_rec_int (0.06982507547816391), total_rec_int (0.0671662999611361).
