@@ -20,19 +20,19 @@ The following algorithms were used to resample the LendingClub data and build an
 
 1. Oversample the data using the `Naive Random Oversampler` algorithm
 
-![ros](Images/ros.png)
+![ros](Images/ros.PNG)
 
 2. Oversample the data using the `SMOTE` algorithm
 
-![smote](Images/smote.png)
+![smote](Images/smote.PNG)
 
 3. Undersample the data using the `Cluster Centroids` algorithm
 
-![cc](Images/cc.png)
+![cc](Images/cc.PNG)
 
 4. Over- and under-sample using a combination `SMOTEENN` algorithm.
 
-![sm](Images/sm.png)
+![sm](Images/sm.PNG)
 
 In summary, using the SMOTEENN algorithm (combination over- and under-sampling algorithm) resulted in the best balanced accuracy score of 0.797195732662936. Using the Cluster Centroids algorithm (under-sampling algorithm) resulted in the best recall score (0.76) to predict high-risk loans. Using the Naive Random Oversampler and SMOTE algorithms (over-sampling algorithm) and using the SMOTEENN algorithm (combination over- and under-sampling algorithm) all produced the best geometric mean score of 0.79.
 
@@ -42,11 +42,11 @@ Two different ensemble classifiers were used to to predict loan risk and evaluat
 
 1. Balanced Random Forest Classifier
 
-![brf](Images/brf.png)
+![brf](Images/brf.PNG)
 
 2. Easy Ensemble Classifier
 
-![eac](Images/eac.png)
+![eac](Images/eac.PNG)
 
 In summary, Using the Easy Ensemble Classifier algorithm resulted in the best balanced accuracy score of 0.9369578705214515. Using the Easy Ensemble Classifier algorithm resulted in the best recall score (0.92) to predict high-risk loans. Using the Easy Ensemble Classifier algorithm resulted resulted in the best geometric mean score (0.94).
 
